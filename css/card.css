@@ -1,0 +1,63 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: #E0E0E0;
+}
+#gameGuess{
+    text-align:center;
+    background: #000;
+}
+.game-heading{
+    font-size:1.5em;
+    padding:.5em 0;
+}
+.card{
+    background: #313552;
+    margin:0 auto;
+    max-width:40em;
+    margin-top:2em;
+    padding-bottom:2em;
+    border-radius:8px;
+}
+.card-guess-img{
+    font-size:5em;
+    margin:0;
+}
+.card-content-guess{
+    font-size:1.5em;
+    text-transform:capitalize;
+    color:#FEC576;
+}
+.card-title{
+    display:flex;
+    justify-content: space-around;
+}
+.high-score,
+.current-score {
+    font-size:.8em;
+}
+.card-content{
+    padding:5em 0;
+}
+.content-title{
+    font-size:1.2em;
+}
+input{
+    padding:2em;
+    background-color:#1F2235;
+    border:2px solid #FEC576;
+    border-radius:.2em;
+}
+
+.btn{
+    font-size:.8em;
+    color: #1F2235;
+    line-height:.8em;
+    padding:.5em 2em;
+    margin-top:2em;
+    background-color:#FEC576;
+    border-radius:.5em;
+}
+.btn-check,
+.btn-reset{
+    
+}
